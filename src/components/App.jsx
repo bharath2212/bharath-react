@@ -1,10 +1,10 @@
 import React from "react";
 import './App.css';
-import "./MyInfo";
+import MyInfo from "./MyInfo";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <MyInfo />
     </div>
   );
