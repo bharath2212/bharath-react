@@ -1,15 +1,24 @@
 import React from "react";
 import './App.css';
-import Header from "./Header";
-import Footer from "./Footer";
-import MainContent from "./MainContent";
+import { Time } from "../components/Time";
 
 function App() {
   return (
     <div>
-      <Header />
-      <MainContent />
-      <Footer />
+      <h3><Time /></h3>
+
+      <input type="checkbox"/>
+      <p>Place holder text</p>
+
+      <input type="checkbox"/>
+      <p>Place holder text</p>
+
+      <input type="checkbox"/>
+      <p>Place holder text</p>
+
+      <input type="checkbox"/>
+      <p>Place holder text</p>
+
     </div>
   );
 }
